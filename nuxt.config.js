@@ -47,10 +47,6 @@ export default {
   build: {
   },
 
-  generate: {
-    dir: 'docs'
-  },
-
   router: {
     base : '/portfolio/'
   }
