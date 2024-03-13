@@ -1,5 +1,12 @@
 <template>
   <div>
+    <img src ="/img/IMG_5597.JPG">
+    <img src ="/img/IMG_4944.JPG">
+    <img src ="/img/IMG_5094.JPG">
+    <img src ="/img/IMG_5154.JPG">
+    <img src ="/img/IMG_5097.JPG">
+    <img src ="/img/IMG_5151.JPG">
+    <img src ="/img/IMG_5115.JPG">
     <Tutorial />
   </div>
 </template>
