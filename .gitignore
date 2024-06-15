@@ -93,3 +93,6 @@ sw.*
 .output
 .data
 .nitro
+
+.output/nitro.json
+latest.json
