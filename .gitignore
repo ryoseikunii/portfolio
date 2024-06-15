@@ -88,3 +88,8 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Nuxt dev/build outputs
+.output
+.data
+.nitro
