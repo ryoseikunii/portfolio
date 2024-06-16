@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <v-main>
     <Header />
-    <Nuxt />
+    <slot />
     <Welcome />
     <Works1 />
-  </div>
+  </v-main>
 </template>
 <script>
 import Header from "@/components/header.vue";
