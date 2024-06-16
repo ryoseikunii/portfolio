@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  NUXT_APP_BASE_URL:"/portfolio/"
+  NUXT_APP_BASE_URL: "/portfolio/"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
