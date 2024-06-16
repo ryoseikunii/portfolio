@@ -1,11 +1,44 @@
+name: Deploy Nuxt 3 to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # デプロイ対象のブランチ名
+
+permissions:
+  contents: write  # デプロイに必要な権限
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # ... (チェックアウト、依存関係のインストール、静的ファイルの生成など)
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Node.js のバージョン
+          cache: 'yarn'  # キャッシュに yarn を使用
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build for production
+        run: yarn build
+
+      - name: Export static files
+        run: yarn generate
+
+      - name: Add .nojekyll file
+        run: touch .nojekyll
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist # 公開ディレクトリを指定 (通常は dist)
+          branch: gh-pages  # デプロイ先のブランチ名
+          folder: dist  # 静的ファイルの出力先ディレクトリ
