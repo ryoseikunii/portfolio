@@ -1,0 +1,1 @@
+import{_ as t}from"./BY_xXyVu.js";import{d as o,_ as n,t as a,A as s,y as c,s as r}from"./Buvcl55C.js";const _=o({name:"IndexPage"});function p(d,m,i,f,l,u){const e=t;return r(),a("div",null,[s(" test "),c(e)])}const k=n(_,[["render",p]]);export{k as default};
