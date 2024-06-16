@@ -1,7 +1,6 @@
 <template>
     <div>
         <header>
-            <h1>header</h1>
             <HeaderNav />
         </header>
     </div>

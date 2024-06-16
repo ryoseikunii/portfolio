@@ -2,7 +2,8 @@
   <div>
     <Header />
     <Nuxt />
-    <Tutorial />
+    <Welcome />
+    <Works1 />
   </div>
 </template>
 <script>
