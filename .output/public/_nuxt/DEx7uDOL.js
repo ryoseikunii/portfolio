@@ -1,1 +1,0 @@
-import{d as e,_ as t,v as n,t as o,x as s}from"./B7DZRMaY.js";const a=e({name:"IndexPage"}),c=s("h1",null,"index test",-1),d=[c];function r(_,i,p,l,f,x){return o(),n("div",null,d)}const u=t(a,[["render",r]]);export{u as default};

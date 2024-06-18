@@ -3,6 +3,9 @@
     <Header />
     <slot />
     <Welcome />
+    <p>
+      WORKS
+    </p>
     <Works1 />
   </v-main>
 </template>

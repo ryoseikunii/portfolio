@@ -3,16 +3,10 @@
 		<nav>
 			<ul>
 				<li>
-					リンク1
+					Home
 				</li>
 				<li>
-					リンク2
-				</li>
-				<li>
-					リンク3
-				</li>
-				<li>
-					リンク4
+					Javasparrow
 				</li>
 			</ul>
 		</nav>
