@@ -19,7 +19,7 @@ export default ({
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '(process.env.NUXT_APP_BASE_URL ? NUXT_APP_BASE_URL : "") + /favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: (process.env.NUXT_APP_BASE_URL ? process.env.NUXT_APP_BASE_URL : "") + '/favicon.ico' }
       ]
     }
   },
