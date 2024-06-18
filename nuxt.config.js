@@ -1,4 +1,4 @@
-export default defineNuxtConfig ({
+export default ({
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -6,22 +6,20 @@ export default defineNuxtConfig ({
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
-  app: {
-    head: {
-      title: 'Ryosei Kunii',
-      htmlAttrs: {
-        lang: 'en'
-      },
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: '' },
-        { name: 'format-detection', content: 'telephone=no' }
-      ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      ]
-    }
+  head: {
+    title: 'Ryosei Kunii',
+    htmlAttrs: {
+      lang: 'en'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
