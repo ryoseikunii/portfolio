@@ -6,37 +6,25 @@
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">B社</h2>
         <h2 class="text-2xl leading-7 font-semibold">
-          ECサイト・購入者サポートサイトの機能開発・保守
+          鉄道運行システム開発
         </h2>
         2020/3～2021/7
         <p class="mt-3 text-gray-600">
-          コーダー・テスター・お客様先インストール作業<br>
-          事業者向けプリンター、オフィス用品の販売・アフターサポートを提供するWebサイトの新規機能開発・保守<br>
-          <li>スクラム開発</li>
-          <li>顧客折衝からの要件定義</li>
-          <li>Redmineを用いた進行管理、ドキュメント作成</li>
-          <li>実装・自動テスト作成</li>
-          <li>jenkinsでの自動デプロイ</li>
-          <li>お客様から顧客データを調べてほしいとの問い合わせが頻発しており、DB操作による調査</li>
-          <li>週1,2回ほどの改修リリース</li>
+          役割：コーダー・テスター・お客様先インストール作業<br>
+          鉄道運行システムのリプレースに伴う機能改修案件。大規模開発の後半から動員され、プロジェクト完了・納品まで携わった。<br>
+          <li>設計・テスト用ドキュメント作成</li>
+          <li>お客様先でのインストール</li>
+          <li>試験用パケット通信監視プログラム作成</li>
         </p>
         <p class="mt-3 text-gray-600">
           <h3 class="text-2xl leading-7 font-semibold">言語</h3>
-          <li>Java(SE8)</li>
-          <li>JavaScript</li>
-          <li>HTML/CSS</li>
-          <h3 class="text-2xl leading-7 font-semibold">フレームワーク</h3>
-          <li>Spring Boot</li>
-          <li>jQuery</li>
-          <li>Angular.js</li>
-          <h3 class="text-2xl leading-7 font-semibold">DB</h3>
-          <li>PostgreSQL</li>
+          <li>C</li>
+          <li>C#</li>
+          <li>Lua</li>
+          <li>Visual Basic</li>
           <h3 class="text-2xl leading-7 font-semibold">ツール</h3>
-          <li>GitHub</li>
-          <li>Jenkins</li>
-          <li>Docker</li>
-          <li>Redmine</li>
-          <li>pgAdmin</li>
+          <li>Visual Studio</li>
+          <li>WireShark</li>
         </p>
       </div>
     </div>
