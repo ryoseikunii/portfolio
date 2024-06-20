@@ -1,6 +1,7 @@
 <template>
     <div>
         <header>
+            <h1 class="text-2xl leading-7 font-semibold">Ryosei Kunii's Portfolio</h1>
             <HeaderNav />
         </header>
     </div>

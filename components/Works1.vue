@@ -4,14 +4,14 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
     <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
-        <h2 class="text-2xl leading-7 font-semibold">A社</h2>
+        <h2 class="text-2xl leading-7 font-semibold">A社①</h2>
         <h2 class="text-2xl leading-7 font-semibold">
           ECサイト・購入者サポートサイトの機能開発・保守
         </h2>
         2018/4～2020/2
-        <p class="mt-3 text-gray-600">
+        <p class="mt-3">
           役割：システムエンジニア<br>
-          事業者向けプリンター、オフィス用品の販売・アフターサポートを提供するWebサイトの新規機能開発・保守
+          事業者向けプリンター、オフィス用品の販売・アフターサポートを提供するWebサイトの新規機能開発・保守。アジャイル（スクラム）開発。新卒で初めて携わったプロジェクト。
           <li>スクラム開発</li>
           <li>顧客折衝からの要件定義</li>
           <li>Redmineを用いた進行管理、ドキュメント作成</li>
@@ -20,11 +20,12 @@
           <li>お客様から顧客データを調べてほしいとの問い合わせが頻発しており、DB操作による調査</li>
           <li>週1,2回ほどの改修リリース</li>
         </p>
-        <p class="mt-3 text-gray-600">
+        <p class="mt-3">
           <h3 class="text-2xl leading-7 font-semibold">言語</h3>
           <li>Java(SE8)</li>
           <li>JavaScript</li>
           <li>HTML/CSS</li>
+          <li>Shell script</li>
           <h3 class="text-2xl leading-7 font-semibold">フレームワーク</h3>
           <li>Spring Boot</li>
           <li>jQuery</li>
@@ -37,6 +38,7 @@
           <li>Docker</li>
           <li>Redmine</li>
           <li>pgAdmin</li>
+          <li>Eclipse</li>
         </p>
       </div>
     </div>

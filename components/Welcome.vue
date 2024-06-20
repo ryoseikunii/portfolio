@@ -3,7 +3,7 @@
   <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
     <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
-      <img src = "~/assets/images/IMG_4547_resize.png">
+      <img src = "~/assets/images/IMG_4547_resize.png" class="mx-auto">
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">
           Welcome to Ryosei Kunii's Portfolio
@@ -15,7 +15,8 @@
           要件定義から実装・テスト・保守運用まで一貫した制作が得意。<br>
           趣味はゲームと文鳥の飼育。<br>
           好きなゲーム：モンスターハンターシリーズ、ソウルシリーズ、原神、崩壊：スターレイル、Overwatch2、その他色々やります。<br>
-          ページ一部製作中です、すみません！
+          ページ一部製作中です、すみません！<br>
+          AtCoder始めてみました：<nuxt-link to="https://atcoder.jp/users/suzuQ" class="text-blue-500 hover:text-blue-700" external>AtCoderのマイページリンク</nuxt-link>
         </p>
       </div>
     </div>

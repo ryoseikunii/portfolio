@@ -3,11 +3,13 @@
     <Header />
     <slot />
     <Welcome />
-    <p>
+    <h1 class="text-4xl text-green-700 text-center font-semibold bg-gray-100">
       WORKS
-    </p>
+    </h1>
     <Works1 />
     <Works2 />
+    <Works3 />
+    <Works4 />
   </v-main>
 </template>
 <script>
