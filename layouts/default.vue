@@ -7,6 +7,7 @@
       WORKS
     </p>
     <Works1 />
+    <Works2 />
   </v-main>
 </template>
 <script>
