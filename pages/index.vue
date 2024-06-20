@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>index test</h1>
   </div>
 </template>
 
