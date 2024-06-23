@@ -10,15 +10,25 @@
         </h2>
         2022/4～2023/8
         <p class="mt-3">
-
+          役割：プロジェクトマネージャ兼実装メンバー。詳細設計・実装・テスト<br>
+          自治体向けの学校給食管理用Webシステムの機能の一部を受託開発。お客様との相談業務や工数管理・品質管理
+          <li>自分含め3人の開発チームのPM担当</li>
+          <li>工数管理・品質管理・プロジェクト報告</li>
+          <li>基本設計・実装・テスト</li>
+          <li>新人指導</li>
         </p>
         <p class="mt-3">
           <h3 class="text-2xl leading-7 font-semibold">言語</h3>
-
+          <li>PHP</li>
+          <li>JavaScript</li>
+          <li>HTML/CSS</li>
           <h3 class="text-2xl leading-7 font-semibold">フレームワーク</h3>
-
+          <li>jQuery</li>
+          <h3 class="text-2xl leading-7 font-semibold">DB</h3>
+          <li>PostgreSQL</li>
           <h3 class="text-2xl leading-7 font-semibold">ツール</h3>
-
+          <li>Eclipse</li>
+          <li>pgAdmin</li>
         </p>
       </div>
     </div>
