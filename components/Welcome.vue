@@ -9,14 +9,13 @@
           Welcome to Ryosei Kunii's Portfolio
         </h2>
         <p class="mt-3 text-gray-600">
-          システムエンジニア。茨城生まれ、現在さいたま市在住。<br>
+          システムエンジニア。茨城生まれ、世田谷区在住。<br>
           2018年3月　筑波大学大学院　システム情報工学研究科　修了<br>
           2018年4月～　主にWebエンジニアとして様々な業務に従事。<br>
           要件定義から実装・テスト・保守運用まで一貫した制作が得意。<br>
           趣味はゲームと文鳥の飼育。<br>
           好きなゲーム：モンスターハンターシリーズ、ソウルシリーズ、原神、崩壊：スターレイル、Overwatch2、その他色々やります。<br>
           ページ一部製作中です、すみません！<br>
-          AtCoder始めてみました：<nuxt-link to="https://atcoder.jp/users/suzuQ" class="text-blue-500 hover:text-blue-700" external>AtCoderのマイページリンク</nuxt-link>
         </p>
       </div>
     </div>
